@@ -1,4 +1,5 @@
- Hi ha Que Posar el comentari Entre [] i L'e-mail Entre web ()# Introduccio-als-llenguatges-de-marques
+
+Hi ha Que Posar el comentari Entre [] i L'e-mail Entre web ()# Introduccio-als-llenguatges-de-marques
 
 _Pablo_: Amb Aquest format escrivim en cursiva
 **Pablo**: Amb Aquest format escrivim en negreta
@@ -16,4 +17,5 @@ capçaleres amb format
 Links
 [m'agrada Llenguatge de Marques](www.markdowntutorial.com)
 Hi ha Que Posar el comentari Entre [] i La web Entre ()
- [BBC](www.bbc.com/news)
+
+[BBC](www.bbc.com/news)
