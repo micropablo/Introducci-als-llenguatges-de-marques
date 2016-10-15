@@ -14,5 +14,4 @@ capçaleres amb format
 ###### PAblo Header 6
 
 Links
-
-[m'agrada Llenguatge de Marques] (www.markdowntutorial.com)
+[m'agrada Llenguatge de Marques](www.markdowntutorial.com)
