@@ -16,4 +16,4 @@ capçaleres amb format
 Links
 [m'agrada Llenguatge de Marques](www.markdowntutorial.com)
 Hi ha Que Posar el comentari Entre [] i La web Entre ()
- [BBC] (www.bbc.com/news)
+ [BBC](www.bbc.com/news)
