@@ -17,4 +17,4 @@ Links
 [m'agrada Llenguatge de Marques](www.markdowntutorial.com)
 Hi ha Que Posar el comentari Entre [] i La web Entre ()
 
-#### The Latest News from the **BBC**  d'aquesta manera posem header 4 i bbc en negreta
+#### The Latest News from the "**BBC**" d'aquesta manera posem header 4 i bbc en negreta
