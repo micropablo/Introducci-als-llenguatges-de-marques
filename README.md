@@ -73,4 +73,6 @@ Existeixen també dues maneres de crear enllaços, es poden veure a continuació
  [2]: http://www.yahoo.es
  [3]: http://www.bing.com
 
+  Hi ha una manera addicional de crear enllaços automàtics per a adreces URL, simplement tancar-la entre els caràcters menor <que i major que>:
   
+  <http://www.google.com>
