@@ -94,6 +94,8 @@ El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de d
 | tecleges    | obtens     |
 | ------------- | ------------- |
 |**  ** enmig la paraula a posar en negreta | **això és negreta**|
-|__   __enmig la paraula a posar en negreta |__això és negreta__|
+|__   __enmig la paraula a posar en negreta |__això també és negreta__|
+|*  * enmig la paraula a posar en cursiva | *això és cursiva*|
+|_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
 
 
