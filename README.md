@@ -97,5 +97,6 @@ El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de d
 |__   __enmig la paraula a posar en negreta |__això també és negreta__|
 |*  * enmig la paraula a posar en cursiva | *això és cursiva*|
 |_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
-
+|***  *** enmig la paraula a posar en negreta i cursiva | ***això és negreta***|
+|___   ___enmig la paraula a posar en negreta i cursiva |___això també és negreta___|
 
