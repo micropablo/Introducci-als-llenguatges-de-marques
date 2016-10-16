@@ -59,4 +59,18 @@ Per conèixer més sobre Markdown, es poden llegir els articles en els que expli
 
 ###### Això és un H6
                                  
+                                 Enllaços
+Existeixen també dues maneres de crear enllaços, es poden veure a continuació:
+
+   
+[amb títol](http://www.google.es "google")
+
+[sense títol](http://www.google.es)
+
+[enllaç 1][1], [enllaç 2][2], [enllaç 3][3]
+
+ [1]: http://www.google.es
+ [2]: http://www.yahoo.es
+ [3]: http://www.bing.com
+
   
