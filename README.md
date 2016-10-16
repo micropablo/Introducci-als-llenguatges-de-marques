@@ -23,7 +23,7 @@ Hi ha Que Posar el comentari Entre [] i la web Entre  ()
 [m'agrada Llenguatge de Marques](http://www.markdowntutorial.com)
 Hi ha Que Posar el comentari Entre [] i La web Entre ()
 
-[BBC](www.bbc.com/news)
+[BBC](http://www.bbc.com/news)
 
 
 vol veure els [gats mes bonics][https://www.youtube.com/watch?v=a7vKi5AlcTU]?
