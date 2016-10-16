@@ -93,7 +93,7 @@ El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de d
 
 | tecleges    | obtens     |
 | ------------- | ------------- |
-|**  **  |això és negreta |
-| Celda 3, col1 | Celda 3, col2 |
+|**  ** enmig la paraula a posar en negreta |""això és negreta"" |
+| _   _enmig la paraula a posar en negreta |_això és negreta_|
 
 
