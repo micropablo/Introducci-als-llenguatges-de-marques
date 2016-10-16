@@ -100,3 +100,22 @@ El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de d
 |***  *** enmig la paraula a posar en negreta i cursiva | ***això és negreta i cursiva***|
 |___   ___enmig la paraula a posar en negreta i cursiva |___això també és negreta i cursiva___|
 
+                                   cites
+Per crear blocs de cita, s'empra el caràcter més gran que> abans del bloc de text. A la següent taula es poden veure les opcions per crear-los.
+
+| tecleges    | obtens     |
+| ------------- | ------------- |
+|Això és una línia normal
+
+> Això és part d'un bloc de cita.
+> Això és part del mateix bloc de cita. |Això és una línia normal
+
+> Això és part d'un bloc de cita.
+> Això és part del mateix bloc de cita.|
+|__   __enmig la paraula a posar en negreta |__això també és negreta__|
+|*  * enmig la paraula a posar en cursiva | *això és cursiva*|
+|_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
+|***  *** enmig la paraula a posar en negreta i cursiva | ***això és negreta i cursiva***|
+|___   ___enmig la paraula a posar en negreta i cursiva |___això també és negreta i cursiva___|
+
+
