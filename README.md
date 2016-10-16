@@ -2,24 +2,43 @@ Introduccio-als-llenguatges-de-marques
 
 
 *Markdown
+
   *Que és Markdown?
+  
 *sintaxi Markdown
+
   *capçaleres
+  
   *Enllaços
+  
   *paràgrafs
+  
   *format
+  
   *cites
+  
   *llistes
+  
   *Llistes de definicions
+  
   *imatges
+  
   *taules
+  
   *codi
+  
   *línies Horitzontals
+  
   *escapar caràcters
+  
   *Notes a peu de pàgina
+  
   *abreviatures
+  
   *Indentificadores de capçalera
+  
 *Pygments
+
   *Lexers de Pygments més comuns per ressaltat de sintaxi
   
                                 Que és Markdown?
