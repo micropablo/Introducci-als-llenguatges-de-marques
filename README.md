@@ -88,5 +88,18 @@ Aquest és el segon paràgraf.
 Aquesta és la primera línia
 i aquest és el salt de línia.
 
+                                  format
+El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de diverses maneres:
+
+tecleges | obtens
+-- | --
+**això és negreta** | Campo B0
+Campo A1 | Campo B1
+
+
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+Campo A1 | Campo B1
 
 
