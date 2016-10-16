@@ -104,21 +104,31 @@ El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de d
 Per crear blocs de cita, s'empra el caràcter més gran que> abans del bloc de text. A la següent taula es poden veure les opcions per crear-los.
 
 
-| tecleges    | obtens     |
-| ------------- | ------------- |
 |Això és una línia normal
-a la dreta del símbol > "In a few moments he was barefoot, his stockings folded in his pockets and his
-  canvas shoes dangling by their knotted laces over his shoulders and, picking a
-  pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
-  the slope of the breakwater." |> "la frase per convertir en cita" |
-|__   __enmig la paraula a posar en negreta |__això també és negreta__|
-|*  * enmig la paraula a posar en cursiva | *això és cursiva*|
-|_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
-|***  *** enmig la paraula a posar en negreta i cursiva | ***això és negreta i cursiva***|
-|___   ___enmig la paraula a posar en negreta i cursiva |___això també és negreta i cursiva___|
+a la dreta del símbol > posem la frase que volem convertir en cita
 
 
 > "In a few moments he was barefoot, his stockings folded in his pockets and his
   canvas shoes dangling by their knotted laces over his shoulders and, picking a
   pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
   the slope of the breakwater."
+
+
+també podem col·locar un caràcter d'intercalació en cada línia de la cita. Això és particularment útil si la seva cotització abasta diversos paràgrafs. Per exemple:
+
+> His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+>
+> —Of whom are you speaking? Stephen asked at length.
+>
+> Cranly did not answer.
+
+Recordeu que fins i tot les línies en blanc ha de contenir el caràcter d'intercalació. Això assegura que tota la blockquote s'agrupa junts.
+
+>Hi havia una vegada, que un noi va començar a estudiar llenguatge de marca....
+
+li agrada tant, que es va apuntar a dos mòduls més.
+
+Ara estudia fins els caps de setmana
