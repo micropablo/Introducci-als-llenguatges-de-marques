@@ -1,10 +1,13 @@
+Introduccio-als-llenguatges-de-marques
 
 
-Hi ha Que Posar el comentari Entre [] i L'e-mail Entre web ()# Introduccio-als-llenguatges-de-marques
 
 _Pablo_: Amb Aquest format escrivim en cursiva
+
 **Pablo**: Amb Aquest format escrivim en negreta
+
 _OF COURSE_ **A LITTLE MOXIE**:  Amb Aquest format escrivim en negreta i en cursiva
+
 **_on the outside_**:  Amb Aquest format escrivim en negreta i en cursiva
 
 capçaleres amb format
@@ -16,7 +19,8 @@ capçaleres amb format
 ###### PAblo Header 6
 
 Links
-[m'agrada Llenguatge de Marques](www.markdowntutorial.com)
+Hi ha Que Posar el comentari Entre [] i la web Entre  ()
+[m'agrada Llenguatge de Marques](http://www.markdowntutorial.com)
 Hi ha Que Posar el comentari Entre [] i La web Entre ()
 
 [BBC](www.bbc.com/news)
