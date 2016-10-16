@@ -107,7 +107,10 @@ Per crear blocs de cita, s'empra el caràcter més gran que> abans del bloc de t
 | tecleges    | obtens     |
 | ------------- | ------------- |
 |Això és una línia normal
-a la dreta del símbol > "la frase per convertir en cita" |> "la frase per convertir en cita" |
+a la dreta del símbol > "In a few moments he was barefoot, his stockings folded in his pockets and his
+  canvas shoes dangling by their knotted laces over his shoulders and, picking a
+  pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
+  the slope of the breakwater." |> "la frase per convertir en cita" |
 |__   __enmig la paraula a posar en negreta |__això també és negreta__|
 |*  * enmig la paraula a posar en cursiva | *això és cursiva*|
 |_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
