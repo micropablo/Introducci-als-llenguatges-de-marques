@@ -132,3 +132,13 @@ Recordeu que fins i tot les línies en blanc ha de contenir el caràcter d'inter
 li agrada tant, que es va apuntar a dos mòduls més.
 
 Ara estudia fins els caps de setmana
+
+Les cites en bloc poden contenir altres elements de rebaixes, com cursiva, imatges o enllaços.
+
+>  [enllaç 1][1], [enllaç 2][2], [enllaç 3][3]
+
+ [1]: http://www.google.es
+ [2]: http://www.yahoo.es
+ [3]: http://www.bing.com
+
+  
