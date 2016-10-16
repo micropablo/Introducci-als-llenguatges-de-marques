@@ -1,36 +1,43 @@
 Introduccio-als-llenguatges-de-marques
 
 
+*Markdown
+  *Que és Markdown?
+*sintaxi Markdown
+  *capçaleres
+  *Enllaços
+  *paràgrafs
+  *format
+  *cites
+  *llistes
+  *Llistes de definicions
+  *imatges
+  *taules
+  *codi
+  *línies Horitzontals
+  *escapar caràcters
+  *Notes a peu de pàgina
+  *abreviatures
+  *Indentificadores de capçalera
+*Pygments
+  *Lexers de Pygments més comuns per ressaltat de sintaxi
+  
+                                Que és Markdown?
+Markdown és un llenguatge de marcat lleuger semblant al que s'empra en moltes wikis i basat originalment en convencions existents en el marcatge dels correus electrònics. Empra text pla, procurant que sigui llegible però aconseguint que esdevingui XHTML correctament formatat. Els articles d'aquest lloc estan elaborats emprant Markdown, sense utilitzar cap tipus d'editor visual WYSIWYG, el que facilita el crear documents XHTML nets i fàcilment editables en el futur. En són un bon exemple de les capacitats de Markdown. Encara que no és molt conegut, comença a ser molt popular i utilitzat entre els programadors.
 
-_Pablo_: Amb Aquest format escrivim en cursiva
+Per conèixer més sobre Markdown, es poden llegir els articles en els que explico perquè és el més adequat per crear un bloc i perquè ho he triat per aquest lloc, articles Markdown
 
-**Pablo**: Amb Aquest format escrivim en negreta
+                                 capçaleres
+# Això és un H1    
 
-_OF COURSE_ **A LITTLE MOXIE**:  Amb Aquest format escrivim en negreta i en cursiva
+## Això és un H2
 
-**_on the outside_**:  Amb Aquest format escrivim en negreta i en cursiva
+### Això és un H3
 
-capçaleres amb format
-# Pablo   Header 1  
-## Pablo  Header 2
-### Pablo  Header 3
-#### Pablo Header 4
-##### Pablo Header 5
-###### PAblo Header 6
+#### Això és un H4
 
-Links
+##### Això és un H5
 
-Hi ha Que Posar el comentari Entre [] i La web Entre ()
-
-[m'agrada Llenguatge de Marques](http://www.markdowntutorial.com)
-
-
-[BBC](http://www.bbc.com/news)
-
-
-vol veure els [gats mes bonics][https://www.youtube.com/watch?v=a7vKi5AlcTU]?
-
-perquè gaudeixis dels gats [tenim un altre lloc ][https://www.youtube.com/watch?v=AkQOYYIxd_I]!
-
-
-[TML5: La re-evolució de l'hipertext](https://lh4.googleusercontent.com/--ZbKvWVjxCM/VAyFKjtEajI/AAAAAAAADpw/SkEKDFt5ppw/w469-h272-no/w3c.png)
+###### Això és un H6
+                                 
+  
