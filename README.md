@@ -142,4 +142,14 @@ Les cites en bloc poden contenir altres elements de rebaixes, com cursiva, imatg
  [3]: http://www.bing.com
 
 ![Con titulo](https://upload.wikimedia.org/wikipedia/commons/b/b3/Dolphind.jpg "free dolphin in ocean")
+
+                                                   llistes
+Markdown permet crear dos tipus de llistes, ordenades i desordenades, és a dir numerades o llistes de punts. Per distingir els tipus i com es creen, res millor que veure-ho amb exemples:
+
+Lista numerada (ordenada)
+
+1. Manzanas
+2. Naranjas
+3. Limones
+
   
