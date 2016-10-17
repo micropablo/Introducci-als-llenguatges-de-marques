@@ -167,9 +167,14 @@ Es poden emprar també + i - en comptes de *
 Es poden barrejar diferents tipus de llistes i niar unes dins les altres.
 
 1. Això és una llista ordenada
+
 2. Segon element de la llista ordenada
+
      1. Aquesta és una llista ordenada imbricada dins d'una altra
+     
          * Llista sense endreçar imbricada a tercer nivell
+         
          * Segon element d'aquesta llista
+         
      2. Aquest és el segon element de la llista ordenada imbricada
   
