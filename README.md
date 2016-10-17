@@ -1,5 +1,25 @@
 Introduccio-als-llenguatges-de-marques
 
+Ejemplo html:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jen's Kitchen</title>
+<link rel="stylesheet" href="kitchen.css" type="text/css" >
+</head>
+<body>
+<h1><img src="https://s11.postimg.org/5bvytj01f/foods.png" alt="food illustration"> Jen&rsquo;s Kitchen</h1>
+<p>If you love to read about <strong>cooking and eating</strong>, would like to find out
+about
+of some of the best restaurants in the world, or just want a few choice recipes to add to
+your
+collection, <em>this is the site for you!</em></p>
+<p><img src="https://postimg.org/image/n37l7zffz/" alt="spoon illustration"> Your pal, Jen at Jen's Kitchen</p>
+<hr>
+<p><small>Copyright 2011, Jennifer Robbins</small></p>
+</body>
+</html>
 
 *Markdown
 
