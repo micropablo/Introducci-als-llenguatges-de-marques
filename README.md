@@ -146,10 +146,30 @@ Les cites en bloc poden contenir altres elements de rebaixes, com cursiva, imatg
                                                    llistes
 Markdown permet crear dos tipus de llistes, ordenades i desordenades, és a dir numerades o llistes de punts. Per distingir els tipus i com es creen, res millor que veure-ho amb exemples:
 
-Lista numerada (ordenada)
+Llista numerada (ordenada)
 
-1. Manzanas
-2. Naranjas
-3. Limones
+1. Pomes
+2. Taronges
+3. Llimones
 
+Llista de punts (desordenada)
+
+* Targeta gràfica
+* Memòria ram
+* Cpu
+
+Es poden emprar també + i - en comptes de *
+
+* Cable sata
++ Pasta tèrmica
+- Ventilador
+
+Es poden barrejar diferents tipus de llistes i niar unes dins les altres.
+
+1. Això és una llista ordenada
+2. Segon element de la llista ordenada
+     1. Aquesta és una llista ordenada imbricada dins d'una altra
+         * Llista sense endreçar imbricada a tercer nivell
+         * Segon element d'aquesta llista
+     2. Aquest és el segon element de la llista ordenada imbricada
   
