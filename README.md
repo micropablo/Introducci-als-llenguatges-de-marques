@@ -2,7 +2,7 @@ Introduccio-als-llenguatges-de-marques
 
 Ejemplo html:
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Jen's Kitchen</title>
