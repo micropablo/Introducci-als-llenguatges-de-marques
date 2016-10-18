@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Agenda>
+   <contacto id="bk101">
+      <Nombre>Pablo</Nombre>
+      <Apellido>Segui Pedrosa</title>
+      <Dirección>Dragonera 14 b</genre>
+      <telefono>693700859</price>
+         </contacto>
+   <contacto id="bk101">
+      <Nombre>Pedro</Nombre>
+      <ApellidoPetro Morro</title>
+      <Dirección>Almendro 3</genre>
+      <telefono>971276750</price>
+         </contacto>
+    </Agenda>
