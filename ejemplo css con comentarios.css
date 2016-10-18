@@ -1,0 +1,51 @@
+body {
+  padding-left: 11em;
+<!--Aquesta "em" serveix per triar la mida de la lletra-->
+  font-family: Georgia, "Times New Roman", 
+        Times, serif;
+<!--Aquesta "font-family" Serveix per escollir el tipus de lletra-->
+  color: purple;
+<!--Per escollir color escollim triem color i el nom en anglès-->
+  background-color: #d8da3d }
+<!--Per escollir color de fons escollim background-color i el seu codi-->
+ul.navbar {
+<!--Aquesta "font-family" Serveix per escollir el tipus de lletra-->
+  list-style-type: none;
+  padding: 0; 
+<!--Aquesta "el padding és utilitzat per establir espai al voltant del contingut-->
+  margin: 0;
+<!-- margin estableix l'amplada d'alguns o tots els marges dels elements-->
+  position: absolute;
+<!-- Posiciona els elements de forma normal, relativa, absoluta o fixa-->
+  top: 2em; 
+<!--top ndica el desplaçament entre la vora superior de l'element i la part superior del seu element contenidor-->
+  left: 1em; 
+<!--Indica el desplaçament entre la vora esquerra de l'element i la part esquerra del seu element contenidor-->
+  width: 9em }
+<!--Estableix l'amplada dels elements de bloc-->
+
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black } <!--border-right:Estableix algunes o totes les propietats de la vora dreta dels elements-->
+
+
+ul.navbar a {
+  text-decoration: none }
+ <!--text-decoration:Establece la decoración que se añade al texto de un elemento-->
+
+a:link {
+<!--Aquesta "ens serveix per escollir el color del link-->
+  color: blue }
+a:visited {
+<!--Aquesta "
+ens serveix per escollir el color de l'enllaç quan ha estat visitat-->
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
