@@ -46,9 +46,7 @@ Ejemplo html:
   *Lexers de Pygments més comuns per ressaltat de sintaxi
   
                                 Que és Markdown?
-Markdown és un llenguatge de marcat lleuger semblant al que s'empra en moltes wikis i basat originalment en convencions existents en el marcatge dels correus electrònics. Empra text pla, procurant que sigui llegible però aconseguint que esdevingui XHTML correctament formatat. Els articles d'aquest lloc estan elaborats emprant Markdown, sense utilitzar cap tipus d'editor visual WYSIWYG, el que facilita el crear documents XHTML nets i fàcilment editables en el futur. En són un bon exemple de les capacitats de Markdown. Encara que no és molt conegut, comença a ser molt popular i utilitzat entre els programadors.
 
-Per conèixer més sobre Markdown, es poden llegir els articles en els que explico perquè és el més adequat per crear un bloc i perquè ho he triat per aquest lloc, articles Markdown
 
                                  capçaleres
 # Això és un H1    
@@ -182,3 +180,57 @@ Es poden barrejar diferents tipus de llistes i niar unes dins les altres.
          
      2. Aquest és el segon element de la llista ordenada imbricada
   
+                                             Llistes de definicions
+Es poden crear llista de definicions, que estan compostes de termes i les definicions dels mateixos, com si fos un diccionari. La seva creació és molt senzilla:
+
+
+primer terme
+ : Primera definició
+
+segon terme
+ : Segona definició
+ 
+ Es poden aplicar més d'una definició a un termini
+
+primer terme
+ : Primera definició
+ : Segona definició
+
+segon terme
+ : Segona definició
+ 
+ 
+Es poden aplicar més d'un terme a una definició
+
+primer terme
+segon terme
+ : Primera definició
+
+tercer termini
+ : Segona definició
+ 
+ 
+Si deixem una línia en blanc entre el terme i la definició, es creés un paràgraf per a la definició.
+
+primer terme
+
+: Primera definició
+
+segon terme
+ : Segona definició
+ 
+ Una definición puede constar de varios párrafos.
+
+Primer termino
+ : Primera definición
+
+Segundo párrafo de la primera definición
+
+Segundo termino
+ : Segunda definición
+ 
+ 
+                                              imatges
+La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
+
+![Con titulo](https://www.google.com/search?biw=1366&bih=662&tbm=isch&q=barco+animado&sa=X&ved=0ahUKEwjxp7Wc8OXPAhUJChoKHT63AYwQhyYIHQ "vaixell")
