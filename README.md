@@ -237,10 +237,10 @@ La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb
 Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los elementos de la cabecera y separar los campos con el símbolo |
 
 
-Cabecera A | Cabecera B
--- | --
-Campo A0 | Campo B0
-Campo A1 | Campo B1
+| Cabecera A | Cabecera B| 
+| -- | --| 
+| Campo A0 | Campo B0| 
+| Campo A1 | Campo B1| | 
 
 
 | Cabecera A | Cabecera B |
