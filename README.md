@@ -143,18 +143,6 @@ Les cites en bloc poden contenir altres elements de rebaixes, com cursiva, imatg
  [2]: http://www.yahoo.es
  [3]: http://www.bing.com
 
-![Con titulo](https://upload.wikimedia.org/wikipedia/commons/b/b3/Dolphind.jpg "free dolphin in ocean")
-
-                                                   llistes
-Markdown permet crear dos tipus de llistes, ordenades i desordenades, és a dir numerades o llistes de punts. Per distingir els tipus i com es creen, res millor que veure-ho amb exemples:
-
-Llista numerada (ordenada)
-
-1. Pomes
-2. Taronges
-3. Llimones
-
-Llista de punts (desordenada)
 
 * Targeta gràfica
 * Memòria ram
@@ -234,7 +222,11 @@ Segundo termino
 La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
 
 ![Con titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif "vaixell")
+
+
 ![Sin titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif)
+
+
 ![Imagen 1][1]  ![Imagen 2][2]
 
  [1]: http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif
