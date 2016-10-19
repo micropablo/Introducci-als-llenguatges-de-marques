@@ -225,8 +225,8 @@ La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb
  [2]: http://cdn5.dibujos.net/dibujos/pintados/201211/barco-pirata-cuentos-y-leyendas-piratas-pintado-por-alexrider-9724406.jpg 
  
  
-                                                    Tablas
-Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los elementos de la cabecera y separar los campos con el símbolo |
+                                         Taules
+ Crear taules és summament senzill, simplement hem d'indicar quins són els elements de la capçalera i separar els camps amb el símbol |
 
 
 
@@ -299,4 +299,4 @@ En Markdown Python totes les capçaleres porten per defecte associat un identifi
                                           Fonts
 
    
-[amb títol](http://joedicastro.com/pages/markdown.html "Markdown Tutorial")
+[ joe di castrol](http://joedicastro.com/pages/markdown.html "Markdown Tutorial")
