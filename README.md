@@ -267,3 +267,38 @@ ___
 \\ \` \* \_  \{\} \[\] \(\) \# \+ \- \. \! \: \|
 
 
+
+
+                                               Notes a peu de pàgina
+Les notes de pàgina es creen d'una manera molt senzilla en Markdown. Cada nota de peu de pàgina es compon de dos elements: un marcador al costat del text que es converteix en un superíndex i d'una definició que es pot col·locar en una llista de notes al peu al final de document. exemple:
+
+
+Esto es un texto con nota al pie [^1]
+
+[^1]: Esto es una nota al pie de página.
+
+Esto es un texto con nota al pie [^nota1] y esta es otra nota [^nota2]
+
+[^nota1]: Esto es una nota al pie de página.
+[^nota2]: Esto es la segunda nota al pie.
+
+                                               abreviatures
+Per crear abreviatures HTML l'únic necessari és crear una llista d'elles (normalment al final del text) i en qualsevol lloc del text que aparegui l'abreviatura s'aplicarà automàticament. Les llistes d'abreviatures es creen com les llistes d'enllaços, però precedides per un asterisc.
+
+
+ La especificación HTML es mantenida por el W3C.
+
+*[HTML]: Hyper Text Markup Language
+ *[W3C]:  World Wide Web Consortium
+ 
+ Les abreviatures són sensibles a majúscules, de manera que cal tenir-ho en compte. Es poden crear abreviatures de més d'una paraula.
+
+                                          Identificadors de Capçalera
+Els identificadors de capçalera ens permeten establir un identificador a les capçaleres per després poder enllaçar en qualsevol altre lloc del text. És el que ocupació per crear l'índex d'aquesta pàgina. Funcionaria com un anchor HTML (àncora) però que només es pot aplicar a les capçaleres.
+
+### Esto es una cabecera con un Id {#cabecera1}
+
+[Enlace a esa cabecera](#cabecera1)
+
+En Markdown Python totes les capçaleres porten per defecte associat un identificador que depèn del text de la mateixa, encara que sempre preval la que nosaltres establim.
+
