@@ -199,16 +199,16 @@ primer terme
 segon terme
  : Segona definició
  
- Una definición puede constar de varios párrafos.
 
-Primer termino
- : Primera definición
+Una definició pot constar de diversos paràgrafs.
 
-Segundo párrafo de la primera definición
+primer terme
+ : Primera definició
 
-Segundo termino
- : Segunda definición
- 
+Segon paràgraf de la primera definició
+
+segon terme
+ : Segona definició
  
                                               imatges
 La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
