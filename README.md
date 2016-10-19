@@ -252,8 +252,18 @@ Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los e
                                              línies Horitzontals
 Per crear línies horitzontals s'ha de crear una línia envoltada de línies en blanc i composta per 3 o més símbols, que poden ser guions, asteriscs o guions baixos. Es poden crear espais entre aquests caràcters si així es desitja per estètica.
 
-***
-
+3 *
+*** 
+3 -
 - - -
-
+3 _
 ___
+
+
+                                                escapar caràcters
+¿Que passa quan volem mostrar un caràcter que Markdown empra per al marcat? És possible que depenent d'on i com s'empri aquest símbol, sigui interpretat per Markdown i ens faci malbé el format del text. En aquest cas el que es necessita és escapar el caràcter amb el símbol backslash \ En aquesta taula es mostren els símbols que poden ser escapats per Markdown.
+
+
+\\ \` \* \_  \{\} \[\] \(\) \# \+ \- \. \! \: \|
+
+
