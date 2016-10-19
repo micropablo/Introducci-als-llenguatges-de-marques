@@ -1,10 +1,5 @@
 Introduccio-als-llenguatges-de-marques
 
-Ejemplo html:
-
-
-
-
 *Markdown
 
   *Que és Markdown?
@@ -38,13 +33,12 @@ Ejemplo html:
   *abreviatures
   
   *Indentificadores de capçalera
+  *Fuentes
   
-*Pygments
-
-  *Lexers de Pygments més comuns per ressaltat de sintaxi
+  
   
                                 Que és Markdown?
-
+Markdown és un llenguatge de marcat que facilita l'aplicació de format a un text emprant una sèrie de caràcters d'una forma especial
 
                                  capçaleres
 # Això és un H1    
@@ -302,3 +296,7 @@ Els identificadors de capçalera ens permeten establir un identificador a les ca
 
 En Markdown Python totes les capçaleres porten per defecte associat un identificador que depèn del text de la mateixa, encara que sempre preval la que nosaltres establim.
 
+                                          Fonts
+
+   
+[amb títol](http://joedicastro.com/pages/markdown.html "Markdown Tutorial")
