@@ -28,9 +28,7 @@ Ejemplo html:
   *imatges
   
   *taules
-  
-  *codi
-  
+   
   *línies Horitzontals
   
   *escapar caràcters
@@ -237,10 +235,6 @@ La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb
 Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los elementos de la cabecera y separar los campos con el símbolo |
 
 
-| Cabecera A | Cabecera B| 
-| -- | --| 
-| Campo A0 | Campo B0| 
-| Campo A1 | Campo B1| | 
 
 
 | Cabecera A | Cabecera B |
@@ -255,3 +249,11 @@ Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los e
 | Item 2   | 3250     | 23,65€ |
 
 
+                                             línies Horitzontals
+Per crear línies horitzontals s'ha de crear una línia envoltada de línies en blanc i composta per 3 o més símbols, que poden ser guions, asteriscs o guions baixos. Es poden crear espais entre aquests caràcters si així es desitja per estètica.
+
+***
+
+- - -
+
+___
