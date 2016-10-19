@@ -233,4 +233,4 @@ Segundo termino
                                               imatges
 La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
 
-![Con titulo](https://www.google.com/imgres?imgurl=http%3A%2F%2Fwl.static.fotolia.com%2Fjpg%2F00%2F28%2F45%2F48%2F400_F_28454806_JrlQSZqneL7oW8xVVXF5ATw0kLJdkbpt.jpg&imgrefurl=http%3A%2F%2Fpixers.es%2Fvinilos%2Fgran-barco-de-vapor-de-dibujos-animados-28454806&docid=Kzp_9t3gu0ozZM&tbnid=50tly7JDd2RGpM%3A&w=400&h=366&bih=378&biw=780&ved=0ahUKEwiN8JOu8OXPAhUJXhoKHYI8BUgQMwgxKAAwAA&iact=mrc&uact=8 "vaixell")
+![Con titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif "vaixell")
