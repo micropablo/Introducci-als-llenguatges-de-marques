@@ -221,13 +221,37 @@ Segundo termino
                                               imatges
 La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
 
-![Con titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif "vaixell")
+![Con titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif "vaixell") amb títol
 
 
-![Sin titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif)
+![Sin titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif) sense títol
 
 
 ![Imagen 1][1]  ![Imagen 2][2]
 
  [1]: http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif
- [2]: http://cdn5.dibujos.net/dibujos/pintados/201211/barco-pirata-cuentos-y-leyendas-piratas-pintado-por-alexrider-9724406.jpg ""vaixell"
+ [2]: http://cdn5.dibujos.net/dibujos/pintados/201211/barco-pirata-cuentos-y-leyendas-piratas-pintado-por-alexrider-9724406.jpg 
+ 
+ 
+                                                    Tablas
+Crear tablas es sumamente sencillo, simplemente debemos indicar cuales son los elementos de la cabecera y separar los campos con el símbolo |
+
+
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+Campo A1 | Campo B1
+
+
+| Cabecera A | Cabecera B |
+| ---------- | ---------- |
+| Campo A0   | Campo B0   |
+| Campo A1   | Campo B1   |
+
+
+| Elemento | Cantidad | Precio |
+| :------- | :------: | -----: |
+| Item 1   | 15       | 150€   |
+| Item 2   | 3250     | 23,65€ |
+
+
