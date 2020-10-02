@@ -1,302 +1,253 @@
-Introduccio-als-llenguatges-de-marques
-
-*Markdown
-
-  *Que és Markdown?
-  
-*sintaxi Markdown
-
-  *capçaleres
-  
-  *Enllaços
-  
-  *paràgrafs
-  
-  *format
-  
-  *cites
-  
-  *llistes
-  
-  *Llistes de definicions
-  
-  *imatges
-  
-  *taules
-   
-  *línies Horitzontals
-  
-  *escapar caràcters
-  
-  *Notes a peu de pàgina
-  
-  *abreviatures
-  
-  *Indentificadores de capçalera
-  *Fuentes
-  
-  
-  
-                                Que és Markdown?
-Markdown és un llenguatge de marcat que facilita l'aplicació de format a un text emprant una sèrie de caràcters d'una forma especial
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-                                 capçaleres
-# Això és un H1    
+- [What is the Community Bookstore?](#what-is-the-community-bookstore)
+- [What are the objectives of Community Bookstore?](#what-are-the-objectives-of-community-bookstore)
+- [How I can contribute?](#how-i-can-contribute)
+- [What skills I need to Contribute?](#what-skills-i-need-to-contribute)
+- [What will the Community Bookstore look like?](#what-will-the-community-bookstore-look-like)
+- [Install](#install)
+  - [Requirements](#requirements)
+  - [Assumptions](#assumptions)
+  - [Getting Community Bookstore project](#getting-community-bookstore-project)
+  - [Installing Backend](#installing-backend)
+    - [Install Drupal 8](#install-drupal-8)
+      - [Sync configuration](#sync-configuration)
+        - [Configure sync dirs](#configure-sync-dirs)
+        - [Symlink to community bookstore config](#symlink-to-community-bookstore-config)
+        - [Force Site UUID match](#force-site-uuid-match)
+        - [Sync configuration](#sync-configuration-1)
+  - [Installing Frontend](#installing-frontend)
+    - [Downloading libraries](#downloading-libraries)
+    - [Common Tasks](#common-tasks)
+      - [Web Server](#web-server)
+    - [Libraries Available](#libraries-available)
 
-## Això és un H2
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Això és un H3
+#What is the Community Bookstore?
+It is an initiative to build a final product for the community by the community to resolve a very specific problem: access to **knowledge**.
 
-#### Això és un H4
+From technical perspective this project is Headless Drupal system using MarionetteJS as FrontEnd.
 
-##### Això és un H5
+#What are the objectives of Community Bookstore?
+Provide a website to enable people to exchange books for a price or for free (depending of the good karma of seller or donors).
 
-###### Això és un H6
-                                 
-                                 Enllaços
-Existeixen també dues maneres de crear enllaços, es poden veure a continuació:
+The tool will work best for instance for a parent with kids from K - 12 Schools or college students all the way through their undergrad and post doctorate.
 
-   
-[amb títol](http://www.google.es "google")
+*The website will have a high impact in the community in areas like:
 
-[sense títol](http://www.google.es)
+* **Ecology**: Less books printed, more books reused and more books recycled at their end of life.
 
-[enllaç 1][1], [enllaç 2][2], [enllaç 3][3]
+* **Knowledge**: Enable to share education for free or a reduced price.
 
- [1]: http://www.google.es
- [2]: http://www.yahoo.es
- [3]: http://www.bing.com
+* **Economy**: Less money is required to buy books, this money could be invested in other areas like clothing or food.
 
-  Hi ha una manera addicional de crear enllaços automàtics per a adreces URL, simplement tancar-la entre els caràcters menor <que i major que>:
-  
-  <http://www.google.com>
-  
-                                  paràgrafs
-Per crear paràgrafs es deixa una línia en blanc. D'aquesta manera.
+#How I can contribute?
 
-Aquest és el primer paràgraf.
+Review the Issue queue and try to resolve one of them, when you finish send us a Pull Request
 
-Aquest és el segon paràgraf.
+#What skills I need to Contribute?
+Community Bookstore will use the whole areas available in the Drupal broad spectrum of skills, and we expect the percentaje of effort will be distributed in the following way.
 
+#What will the Community Bookstore look like?
+These are the wireframes, but they are not set in stone. Contributors will be able to evaluate, pitch in and impact the project, allowing them to decide changes in the features.
 
-Aquesta és la primera línia
-i aquest és el salt de línia.
+<img alt="community-bookstore" src="https://raw.githubusercontent.com/enzolutions/community-bookstore/master/images/community-bookstore.png" height="100px" /><img alt="Book-details" src="https://raw.githubusercontent.com/enzolutions/community-bookstore/master/images/Book-details.png" height="100px" /><img alt="search_results" src="https://raw.githubusercontent.com/enzolutions/community-bookstore/master/images/search_results.png" height="100px" /><img alt="User-details" src="https://raw.githubusercontent.com/enzolutions/community-bookstore/master/images/User-details.png" height="100px" />
 
-                                  format
-El format bàsic del text, és a dir negretes i cursiva, es poden realitzar de diverses maneres:
+#Install
 
-| tecleges    | obtens     |
-| ------------- | ------------- |
-|**  ** enmig la paraula a posar en negreta | **això és negreta**|
-|__   __enmig la paraula a posar en negreta |__això també és negreta__|
-|*  * enmig la paraula a posar en cursiva | *això és cursiva*|
-|_   _enmig la paraula a posar en cursiva |_això també és cursiva_|
-|***  *** enmig la paraula a posar en negreta i cursiva | ***això és negreta i cursiva***|
-|___   ___enmig la paraula a posar en negreta i cursiva |___això també és negreta i cursiva___|
+##Requirements
 
-                                   cites
-Per crear blocs de cita, s'empra el caràcter més gran que> abans del bloc de text. A la següent taula es poden veure les opcions per crear-los.
+* Drush 7 (https://drupalize.me/blog/201408/upgrading-drush-work-drupal-8)
 
+##Assumptions
 
-|Això és una línia normal
-a la dreta del símbol > posem la frase que volem convertir en cita
+We will assume we will have a root folder name ~/back2school to allocate backend and frontend files for Community Bookstore, this is just for convinience to write the instructions but off course is not required.
 
+We will have to domains/virtualhost configured in this way
 
-> "In a few moments he was barefoot, his stockings folded in his pockets and his
-  canvas shoes dangling by their knotted laces over his shoulders and, picking a
-  pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
-  the slope of the breakwater."
+* http://backend.com -> ~/back2school/backend
+* http://frontend.com -> ~/back2school/frontend/web
 
+You have use the webserver of you preference, but we tested with Apache 2
 
-també podem col·locar un caràcter d'intercalació en cada línia de la cita. Això és particularment útil si la seva cotització abasta diversos paràgrafs. Per exemple:
+You have compass, grunt and bower already installed (both are npm packages):
 
-> His words seemed to have struck some deep chord in his own nature. Had he spoken
-of himself, of himself as he was or wished to be? Stephen watched his face for some
-moments in silence. A cold sadness was there. He had spoken of himself, of his own
-loneliness which he feared.
->
-> —Of whom are you speaking? Stephen asked at length.
->
-> Cranly did not answer.
+```
+sudo gem install compass
+sudo npm install -g bower
+sudo npm install -g grunt-cli
+```
 
-Recordeu que fins i tot les línies en blanc ha de contenir el caràcter d'intercalació. Això assegura que tota la blockquote s'agrupa junts.
+##Getting Community Bookstore project
 
->Hi havia una vegada, que un noi va començar a estudiar llenguatge de marca....
+```
+git clone https://github.com/enzolutions/community-bookstore.git ~/back2school
+```
 
-li agrada tant, que es va apuntar a dos mòduls més.
+##Installing Backend
 
-Ara estudia fins els caps de setmana
+### Install Drupal 8
 
-Les cites en bloc poden contenir altres elements de rebaixes, com cursiva, imatges o enllaços.
+At this point is requiered to get Drupal 8 from git, this procces could take a lit bit depending your internet connection.
 
->  [enllaç 1][1], [enllaç 2][2], [enllaç 3][3]
+```
+git clone --branch 8.0.x http://git.drupal.org/project/drupal.git ~/back2school/backend
+```
 
- [1]: http://www.google.es
- [2]: http://www.yahoo.es
- [3]: http://www.bing.com
+You must to follow the regular process to install a Drupal 8 site.
 
+#### Enable CORS
 
-* Targeta gràfica
-* Memòria ram
-* Cpu
+For use drupal as backend, needed enable CORS, please follow these steps in https://github.com/enzolutions/backbone.drupal#cross-origin to enable
 
-Es poden emprar també + i - en comptes de *
+#### Symlink to community bookstore modules contrib/custom
 
-* Cable sata
-+ Pasta tèrmica
-- Ventilador
+```
+$ ln -s ~/back2school/drupal_modules_contrib  ~/back2school/backend/modules/contrib
+$ ln -s ~/back2school/drupal_modules_custom  ~/back2school/backend/modules/custom
+```
 
-Es poden barrejar diferents tipus de llistes i niar unes dins les altres.
+#### Sync configuration
 
-1. Això és una llista ordenada
+After complete the Drupal 8 Installation,you must to load the configruation for Community Booksstore
 
-2. Segon element de la llista ordenada
+##### Configure sync dirs
 
-     1. Aquesta és una llista ordenada imbricada dins d'una altra
-     
-         * Llista sense endreçar imbricada a tercer nivell
-         
-         * Segon element d'aquesta llista
-         
-     2. Aquest és el segon element de la llista ordenada imbricada
-  
-                                             Llistes de definicions
-Es poden crear llista de definicions, que estan compostes de termes i les definicions dels mateixos, com si fos un diccionari. La seva creació és molt senzilla:
+Editing you settings.php you must setup where will be located your config directories for active and staging, as you can see below
 
+```
+$config_directories['staging'] = 'sites/default/config/staging';
+```
 
-primer terme
- : Primera definició
+This configuration is at the end of your setting file, using a ramdom directory created in install process.
 
-segon terme
- : Segona definició
- 
- Es poden aplicar més d'una definició a un termini
+##### Symlink to community bookstore config
 
-primer terme
- : Primera definició
- : Segona definició
+```
+$ mkdir ~/back2school/backend/sites/default/config
+$ ln -s ~/back2school/drupal_config ~/back2school/backend/sites/default/config/staging
+```
 
-segon terme
- : Segona definició
- 
- 
-Es poden aplicar més d'un terme a una definició
+##### Force Site UUID match
 
-primer terme
-segon terme
- : Primera definició
+The Configuration Management only allow sync configuration between same site or project to avoid issues importing configuration from site a.com to b.com, to accomplish this validation Drupal 8 generate a UUID for each site.
 
-tercer termini
- : Segona definició
- 
- 
-Si deixem una línia en blanc entre el terme i la definició, es creés un paràgraf per a la definició.
+You cat get your current site UUDI executing the following command
 
-primer terme
+```
+$ drush cget system.site
+```
 
-: Primera definició
+The config import has a diffent UUID you can confirm with the following command
 
-segon terme
- : Segona definició
- 
+```
+$ cat ~/back2school/backend/sites/default/config/staging/system.site.yml
+```
 
-Una definició pot constar de diversos paràgrafs.
+You need to change the value using the following command
 
-primer terme
- : Primera definició
+```
+$ drush cedit system.site
+```
 
-Segon paràgraf de la primera definició
+Using your favorite text editor you need set the same UUID present in staging config files.
 
-segon terme
- : Segona definició
- 
-                                              imatges
-La manera d'enllaçar imatges és bàsicament la mateixa de crear enllaços, amb un única diferència, s'afegeix el caràcter exclamació! al principi de la parella de claudàtors que defineixen el nom de l'enllaç. exemples:
+##### Sync configuration
 
-![Con titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif "vaixell") amb títol
+Is required your web server have permissions to read the configuration files, for instance if _www is the user running your webserver your must run the following commands
 
+```
+$ sudo chown -R _www ~/back2school/backend/sites/default/config/staging/
+$ sudo chmod -R 755 ~/back2school/backend/sites/default/config/staging/
+```
 
-![Sin titulo](http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif) sense títol
+Now with access to config files we have to option to import/sync the files
 
+**Web enable**
 
-![Imagen 1][1]  ![Imagen 2][2]
+Accessing the URL http://backend.com/admin/config/development/configuration you can review the files and import all changes
 
- [1]: http://www.gifsanimados.org/data/media/271/barco-imagen-animada-0031.gif
- [2]: http://cdn5.dibujos.net/dibujos/pintados/201211/barco-pirata-cuentos-y-leyendas-piratas-pintado-por-alexrider-9724406.jpg 
- 
- 
-                                         Taules
- Crear taules és summament senzill, simplement hem d'indicar quins són els elements de la capçalera i separar els camps amb el símbol |
+**Drush enable**
 
+```
+$ drush config-import staging
+```
 
+After import you will have a complete Community Bookstore running.
 
+##Installing Frontend
 
-| Cabecera A | Cabecera B |
-| ---------- | ---------- |
-| Campo A0   | Campo B0   |
-| Campo A1   | Campo B1   |
+The frontend was generated with Yo Marionette Drupal Generator <a href="https://github.com/enzolutions/generator-marionette-drupal">https://github.com/enzolutions/generator-marionette-drupal</a>.
 
+If you are a developer we recommend install this generator to speed up the development process if Frontend.
 
-| Elemento | Cantidad | Precio |
-| :------- | :------: | -----: |
-| Item 1   | 15       | 150€   |
-| Item 2   | 3250     | 23,65€ |
+###Downloading libraries
 
+Libraries itselft aren't versioned, the Frontend use <a href="http://bower.io">Bower</a> to define required libraries, to download in enviroment that libraries execute the following command.
 
-                                             línies Horitzontals
-Per crear línies horitzontals s'ha de crear una línia envoltada de línies en blanc i composta per 3 o més símbols, que poden ser guions, asteriscs o guions baixos. Es poden crear espais entre aquests caràcters si així es desitja per estètica.
+```
+$ bower install
+```
 
-3 *
-*** 
-3 -
-- - -
-3 _
-___
+###Common Tasks
 
+The fronted implement common tasks using <a href="http://gruntjs.com/">Grunt</a>.
 
-                                                escapar caràcters
-¿Que passa quan volem mostrar un caràcter que Markdown empra per al marcat? És possible que depenent d'on i com s'empri aquest símbol, sigui interpretat per Markdown i ens faci malbé el format del text. En aquest cas el que es necessita és escapar el caràcter amb el símbol backslash \ En aquesta taula es mostren els símbols que poden ser escapats per Markdown.
+Before to execute common tasks we need to install required plugin executing the folling command.
 
+```
+$ npm install
+$ grunt
+```
 
-\\ \` \* \_  \{\} \[\] \(\) \# \+ \- \. \! \: \|
+To get a list of common tasks available execute the following command.
 
+```
+$ grunt tasks
+```
 
+Below a list of available Grunt commands:
 
+```
+compass  -> Compile Sass to CSS using Compass
+concat   -> Concatenate files.
+default  => Alias for "concat", "uglify", "imagemin", "compass", "watch", "connect:server" tasks.
+imagemin -> Minify PNG and JPEG images
+server   => Alias for "connect:server" task.
+uglify   -> Minify files with UglifyJS.
+watch     > Run predefined tasks whenever watched files change.
+```
 
-                                               Notes a peu de pàgina
-Les notes de pàgina es creen d'una manera molt senzilla en Markdown. Cada nota de peu de pàgina es compon de dos elements: un marcador al costat del text que es converteix en un superíndex i d'una definició que es pot col·locar en una llista de notes al peu al final de document. exemple:
+It is convenient to run `grunt` alone to run the default tasks (defined at the end of the Gruntfile.js file): concat, uglify, imagemin, watch. That way we can be sure that we have the assets needed for the frontend (css generated from the scss files and images).
 
+####Web Server
 
-Esto es un texto con nota al pie [^1]
+If you execute all tasks or just the task:
 
-[^1]: Esto es una nota al pie de página.
+```
+$ grunt server
+```
 
-Esto es un texto con nota al pie [^nota1] y esta es otra nota [^nota2]
+You will get a web server for static pages, so you just need open in your server the URL: **http://localhost:9001** to avoid be worried about Apache, Ngix or any other webserver, so you are read to test the Community Bookstore Frotend server.
 
-[^nota1]: Esto es una nota al pie de página.
-[^nota2]: Esto es la segunda nota al pie.
+###Libraries Available
 
-                                               abreviatures
-Per crear abreviatures HTML l'únic necessari és crear una llista d'elles (normalment al final del text) i en qualsevol lloc del text que aparegui l'abreviatura s'aplicarà automàticament. Les llistes d'abreviatures es creen com les llistes d'enllaços, però precedides per un asterisc.
+The frontend use the following libraries (alphabetic order).
 
-
- La especificación HTML es mantenida por el W3C.
-
-*[HTML]: Hyper Text Markup Language
- *[W3C]:  World Wide Web Consortium
- 
- Les abreviatures són sensibles a majúscules, de manera que cal tenir-ho en compte. Es poden crear abreviatures de més d'una paraula.
-
-                                          Identificadors de Capçalera
-Els identificadors de capçalera ens permeten establir un identificador a les capçaleres per després poder enllaçar en qualsevol altre lloc del text. És el que ocupació per crear l'índex d'aquesta pàgina. Funcionaria com un anchor HTML (àncora) però que només es pot aplicar a les capçaleres.
-
-### Esto es una cabecera con un Id {#cabecera1}
-
-[Enlace a esa cabecera](#cabecera1)
-
-En Markdown Python totes les capçaleres porten per defecte associat un identificador que depèn del text de la mateixa, encara que sempre preval la que nosaltres establim.
-
-                                          Fonts
-
-   
-[ joe di castrol](http://joedicastro.com/pages/markdown.html "Markdown Tutorial")
+-backbone
+-backbone-amd
+-backbone.babysitter
+-backbone.drupal
+-backbone.marionette
+-bootstrap-sass
+-backbone.wreqr
+-jquery
+-modernizr
+-requirejs
+-requirejs-text
+-twig.js
+-underscore
+-underscore-amd
