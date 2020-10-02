@@ -63,7 +63,7 @@ Introduccio-als-llenguatges-de-marques
   
   
   
-                                Que és Markdown? {#qmarkdown}
+                                Que és Markdown? (#qmarkdown)
 Markdown és un llenguatge de marcat que facilita l'aplicació de format a un text emprant una sèrie de caràcters d'una forma especial
 
                                  capçaleres
